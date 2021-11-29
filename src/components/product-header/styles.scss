@@ -1,0 +1,39 @@
+.product-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    h1 {
+        font-family: 'Inter-Bold';
+        font-size: 25px;
+        line-height: 30px;
+        color: #000;
+        margin: 0;
+    }
+
+    p {
+        font-family: 'Futura-Regular';
+        font-size: 18px;
+        line-height: 23px;
+        color: #000;
+        margin-top: 5px;
+    }
+
+    a {
+        margin: 7px 0 0 20px;
+    }
+}
+
+@media screen and (min-width: 240px) and (max-width: 400px) {
+    .product-header {
+        h1 {
+            font-size: 20px;
+            line-height: 24px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 21px;
+        }
+    }
+}

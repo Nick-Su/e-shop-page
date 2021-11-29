@@ -1,0 +1,28 @@
+.left-side-bar {
+    min-width: 305px;
+    height: auto;
+}
+
+.product-badges-vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1380px) {
+    .left-side-bar {
+        min-width: 205px;
+    }
+}
+
+@media only screen and (max-width: 1135px) {
+    .badges-container {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+    .left-side-bar {
+        display: none;
+    }
+}

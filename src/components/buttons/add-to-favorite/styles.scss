@@ -1,0 +1,58 @@
+.add-to-favorite-btn {
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 80%;
+    background-color: #EEE;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+    .buy-section {
+        display: flex;
+        flex-direction: row;
+        
+        div {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .add-to-favorite-btn {
+        right: 0;
+        margin-right: 41px;
+        margin-top: 50px;
+        -moz-margin-top: 56px;
+        position: absolute;
+        border-radius: 0;
+        background-color: #000;
+        color: white;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .add-to-favorite-btn  {
+        margin-top: 55px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .add-to-favorite-btn {
+        margin-right: 1%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .add-to-favorite-btn {
+        margin-right: 25px;
+    }
+}
+
+
+@media screen and (max-width: 340px) {
+    .add-to-favorite-btn {
+        margin-right: 5%;
+    }
+}

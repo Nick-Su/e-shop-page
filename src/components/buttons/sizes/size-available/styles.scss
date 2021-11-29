@@ -1,0 +1,17 @@
+.size-option-button-available {
+    width: 41px;
+    height: 41px;
+    margin-left: 6px;
+    border-radius: 50%; 
+    background: #E5E5E5;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 400px) {
+    .size-option-button-available {
+        width: 30px;
+        height: 30px;
+    }
+}

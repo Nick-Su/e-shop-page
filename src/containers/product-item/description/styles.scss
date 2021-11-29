@@ -1,0 +1,134 @@
+.item-description {
+    width: 100%;
+    padding: 0 5% 0 7%;
+    margin-top: 99px;
+}
+
+.buy-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    div {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.size-options {
+    display: flex;
+    align-items: center;
+    margin-top: 42px;
+
+    .options-btns {
+        display: flex;
+    }
+
+    a {
+        margin-left: 15%;
+        color: #000;
+        font-size: 16px;
+        line-height: 21px;
+        font-family: 'Futura-Regular';
+        text-decoration: none;
+    }
+}
+
+.text-description {
+    width: 453px;
+    margin-top: 44px;
+
+    p {
+        font-size: 18px;
+        line-height: 23px;
+        font-family: 'Futura-Regular';
+        color: #000;
+    }
+}
+
+.product-badges-container {
+    display: none;
+}
+
+.mobile-photo-gallery {
+    display: none;
+}
+
+@media only screen and (max-width: 1280px) {
+    .item-description {
+        padding: 0 1% 0 2%;
+    }
+}
+
+@media only screen and (max-width: 1135px) {
+    .product-badges-container {
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .buy-section {
+        display: flex;
+        flex-direction: row;
+        
+        div {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .text-description {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 690px) and (max-width: 1024px) {
+    .item-description {
+        padding: 0 40px 0 40px;
+    }
+}
+
+@media screen and (min-width: 240px) and (max-width: 600px) {
+    .item-description {
+        display: flex;
+        flex-direction: column;
+        margin-top: 26px;
+    }
+
+    .item-description:first-child {
+        order: 1;
+    }
+
+    .buy-section {
+        order: 3;
+        margin-top: 29px;
+    }
+
+    .size-options {
+        order: 2;
+        margin-top: 10px;
+
+        a {
+            margin-left: 5%;
+        }
+    }
+
+    .text-description {
+        order: 5;
+        margin-top: 0px;
+    }
+
+    .product-badges-container {
+        order: 6;
+        margin-bottom: 40px;
+    }
+
+    .mobile-photo-gallery {
+        display: block;
+        order: 4;
+        padding: 0px;
+        margin: 32px auto;
+    }
+
+}

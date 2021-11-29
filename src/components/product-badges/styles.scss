@@ -1,0 +1,23 @@
+.product-badges {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 63px;
+    
+    img {
+        width: 110px;
+        height: 110px;
+    }
+}
+
+@media only screen and (max-width: 1135px) {
+    .product-badges {
+        flex-direction: row;
+        margin-top: 20px;
+
+        img {
+            width: 67px;
+            height: 67px;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Futura-Bold';
+  src: local('Futura-Bold'), url('./assets/fonts/FuturaPT-bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Futura-Medium';
+  src: local('Futura-Medium'), url('./assets/fonts/FuturaPT-medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Futura-Regular';
+  src: local('Futura-Regular'), url('./assets/fonts/FuturaPT-regular.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Inter-Bold';
+  src: local('Inter-Bold'), url('./assets/fonts/Inter-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter-Regular';
+  src: local('Inter-Regular'), url('./assets/fonts/Inter-Regular.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'ComforterBrush-Regular';
+  src: local('ComforterBrush-Regular'), url("./assets/fonts/ComforterBrush-Regular.ttf") format('truetype');
+}
